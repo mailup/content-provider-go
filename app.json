@@ -1,0 +1,14 @@
+{
+  "name": "Content Provider Go",
+  "description": "MailUp Content Provider developed in Go",
+  "keywords": [
+    "content-provider",
+    "go",
+    "sample",
+    "example"
+  ],
+  "image": "heroku/go:1.6",
+  "mount_dir": "src/github.com/mailup/content-provider-go",
+  "website": "http://github.com/mailup/content-provider-go",
+  "repository": "http://github.com/mailup/content-provider-go"
+}
