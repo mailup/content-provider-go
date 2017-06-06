@@ -1,16 +1,23 @@
 package main
 
 import (
+	"log"
 	"net/http"
+	"os"
 
 	"github.com/mailup/content-provider-go/model"
 	"gopkg.in/gin-gonic/gin.v1"
 )
 
 func main() {
+	port := os.Getenv("PORT")
+
+	if port == "" {
+		log.Fatal("$PORT must be set")
+	}
 	router := gin.Default()
 	router.GET("content/products/:email", ListRecommendedProducts)
-	router.Run("0.0.0.0:8080")
+	router.Run(":" + port)
 }
 
 // ListRecommendedProducts return a list of recommended products
