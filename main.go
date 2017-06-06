@@ -9,6 +9,8 @@ import (
 	"gopkg.in/gin-gonic/gin.v1"
 )
 
+var version = "1.0"
+
 func main() {
 	port := os.Getenv("PORT")
 
@@ -16,8 +18,14 @@ func main() {
 		log.Fatal("$PORT must be set")
 	}
 	router := gin.Default()
+	router.GET("/", Home)
 	router.GET("content/products/:email", ListRecommendedProducts)
 	router.Run(":" + port)
+}
+
+// Home provides a initial text
+func Home(ctx *gin.Context) {
+	ctx.String(http.StatusOK, "Content Provider Version "+version)
 }
 
 // ListRecommendedProducts return a list of recommended products
