@@ -1,0 +1,61 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "8aaAVHZ8/CN/+eIvIcPpNWzsRY0=",
+			"path": "github.com/gin-gonic/gin/binding",
+			"revision": "d5b353c5d5a560322e6d96121c814115562501f7",
+			"revisionTime": "2017-04-28T10:59:23Z"
+		},
+		{
+			"checksumSHA1": "XSwwJnhBDPQBlKV/X+F2nGvvptE=",
+			"path": "github.com/gin-gonic/gin/render",
+			"revision": "d5b353c5d5a560322e6d96121c814115562501f7",
+			"revisionTime": "2017-04-28T10:59:23Z"
+		},
+		{
+			"checksumSHA1": "FhQtBYq3/nSeuhKzWoHw26fkzng=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "b50ceb1fa9818fa4d78b016c2d4ae025593a7ce3",
+			"revisionTime": "2017-05-09T16:59:01Z"
+		},
+		{
+			"checksumSHA1": "8sba7NooZnLTY8zidsbqBeDUjxI=",
+			"path": "github.com/manucorporat/sse",
+			"revision": "ee05b128a739a0fb76c7ebd3ae4810c1de808d6d",
+			"revisionTime": "2016-01-26T18:01:36Z"
+		},
+		{
+			"checksumSHA1": "rCNfFpeYqd2Tpi5qOFX8ckaQcMU=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "fc9e8d8ef48496124e79ae0df75490096eccf6fe",
+			"revisionTime": "2017-03-22T23:44:13Z"
+		},
+		{
+			"checksumSHA1": "Y+HGqEkYM15ir+J93MEaHdyFy0c=",
+			"path": "golang.org/x/net/context",
+			"revision": "c9b681d35165f1995d6f3034e61f8761d4b90c99",
+			"revisionTime": "2017-05-10T00:04:54Z"
+		},
+		{
+			"checksumSHA1": "OcPOMcqHcfMcvzA6+1Lj+CFtuPo=",
+			"path": "gopkg.in/gin-gonic/gin.v1",
+			"revision": "e2212d40c62a98b388a5eb48ecbdcf88534688ba",
+			"revisionTime": "2016-12-04T22:13:08Z"
+		},
+		{
+			"checksumSHA1": "QSy5NJwFICKehDsWtfHbcVjIZ+o=",
+			"path": "gopkg.in/go-playground/validator.v8",
+			"revision": "5f57d2222ad794d0dffb07e664ea05e2ee07d60c",
+			"revisionTime": "2016-07-18T13:41:25Z"
+		},
+		{
+			"checksumSHA1": "0eIf9S2wU7EjKgg3qGPKI+Z6RJA=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b",
+			"revisionTime": "2017-04-07T17:21:22Z"
+		}
+	],
+	"rootPath": "github.com/mailup/content-provider-go"
+}
