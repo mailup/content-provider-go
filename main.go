@@ -31,7 +31,7 @@ func Home(ctx *gin.Context) {
 // ListRecommendedProducts return a list of recommended products
 func ListRecommendedProducts(ctx *gin.Context) {
 	email := ctx.Param("email")
-	content := &model.ExternalContent{User: GetUserProfile(email),
+	content := &model.ExternalContent{User: GetUserProfile(email), Flow: GetFlow(),
 		RecommendedProducts: make([]model.Product, 3)}
 
 	content.RecommendedProducts[0] = model.Product{
@@ -95,5 +95,12 @@ func GetUserProfile(email string) *model.UserProfile {
 		FirstName:       "Mario",
 		LastName:        "Rossi",
 		ZipCode:         "26100",
+	}
+}
+
+// GetFlow always allows sending
+func GetFlow() *model.FlowControl {
+	return &model.FlowControl{
+		DoNotSend: false,
 	}
 }
