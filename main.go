@@ -20,6 +20,11 @@ func main() {
 	router := gin.Default()
 	router.GET("/", Home)
 	router.GET("content/products/:email", ListRecommendedProducts)
+
+	// MAPI test webhook
+	group := router.Group("mapi")
+	group.POST("messages", MapiWebhook)
+
 	router.Run(":" + port)
 }
 
