@@ -23,6 +23,7 @@ func main() {
 
 	// MAPI test webhook
 	group := router.Group("mapi")
+	group.GET("healthcheck", MapiHealthcheck)
 	group.POST("messages", MapiWebhook)
 
 	router.Run(":" + port)
