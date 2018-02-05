@@ -33,6 +33,12 @@
 			"revisionTime": "2017-03-22T23:44:13Z"
 		},
 		{
+			"checksumSHA1": "Xt9g3nos0vP6HFRqcrgCxhmnQis=",
+			"path": "github.com/maxzerbini/sling",
+			"revision": "40c5cd393d6a655d55a50c38186fd160a6fd56c8",
+			"revisionTime": "2017-01-21T16:28:26Z"
+		},
+		{
 			"checksumSHA1": "Y+HGqEkYM15ir+J93MEaHdyFy0c=",
 			"path": "golang.org/x/net/context",
 			"revision": "c9b681d35165f1995d6f3034e61f8761d4b90c99",
